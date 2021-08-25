@@ -1,0 +1,28 @@
+GET http://localhost:8080/api/register
+
+###
+
+POST http://localhost:8080/api/register
+Content-Type: application/x-www-form-urlencoded
+
+username=marcin3&password=123&first-name=marcin&last-name=top&email=mr@dasf.pl
+
+###
+
+GET http://localhost:8080/login
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/x-www-form-urlencoded
+
+username=mar&password=mar&_csrf=16e4e7f5-b7d7-4fd5-824d-6372c901f12f
+
+###
+
+GET http://localhost:8080/api/user
+
+###
+
+GET http://localhost:8080/api/admin
+
